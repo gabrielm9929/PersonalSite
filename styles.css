@@ -168,7 +168,7 @@ img {
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  border-bottom: 0.2rem dashed var(--main-white);
 }
 
 @media (max-width: 28.75em) {
@@ -303,7 +303,7 @@ footer {
   justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  border-top: 4px dashed var(--main-red);
 }
 
 footer>p {
